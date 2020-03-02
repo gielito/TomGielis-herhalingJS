@@ -6,15 +6,12 @@
     <title></title>
     <style type="text/css"></style>
     <script type="text/javascript">
-        var landen = ["Frankrijk", "Kroatië", "België"];
-
-        function toonWinnaars(ontvangen) {
-            document.write("<p>Op plaats 1 staat : " + ontvangen[0] + "</p>");
-            document.write("<p>Op plaats 2 staat : " + ontvangen[1] + "</p>");
-            document.write("<p>Op plaats 3 staat : " + ontvangen[2] + "</p>");
-        }
-
-        toonWinnaars(landen);
+        var email = prompt("Geef de email ajb.");
+        if (email == null) {
+            document.write("U heeft geanuleerd!");
+        } else if (email.length == 0) {
+            document.write("U heeft niets ingegeven. Probeer opnieuw");
+            else()
     </script>
 </head>
 
